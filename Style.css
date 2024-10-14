@@ -1,0 +1,73 @@
+body,html{
+    height: 100%;
+}
+/* Main Settings */
+p{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px;
+    gap: 30%;
+}
+
+
+/* Top Bar Section */
+.TopBar{
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: teal;
+    z-index: 1;
+    top: 0%;
+}
+.TopBar a{
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    float: right;
+    color: white;
+    margin-right: 30px;
+    text-decoration:none;
+    display: inline;
+    padding-bottom: 15px;
+}
+.TopBar li{
+display: inline;
+}
+/* --------------------- */
+
+/* Logo and Name Section */
+
+.Brand{
+text-align: center;
+}
+
+
+h1,h2,h3,h4{
+    font-family: "Orbitron", sans-serif;
+    margin:1%;
+    text-align: center;
+}
+/* --------------------- */
+.Developers{
+    background-color: teal;
+}
+.Developers h4{
+    color: white;
+}
+
+.Card_Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5%;
+}
