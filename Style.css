@@ -71,3 +71,12 @@ h1,h2,h3,h4{
     grid-template-columns: 1fr 1fr 1fr;
     gap:5%;
 }
+
+
+@media (max-width: 500px) {
+    .Card_Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:5%;
+    }
+}
