@@ -1,6 +1,14 @@
- 
+body{
+    height: 100vh;
+    background-image:url(Designs/SVG/Artboard\ 1.svg);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+
 /* Main Settings */
-h1,h2,h3,h4,p,a,button{
+h1,h2,h3,h4,p,a{
     font-family: "Orbitron", sans-serif;
 }
 
@@ -8,17 +16,36 @@ h1,h2,h3,h4,p,a,button{
     z-index: 1;
     background-color: teal;
 }
+
 img{
     height: 150px;
+}
+.Logo{
+    height: 150px;
+     display: none;
 }
 
 .Hero{
     height: 100vh;
-     
+    
+}
+.Split{
+    background-color:whitesmoke;
 }
 
-#Features{
-     background-color: #F6F5F5;
+ 
+@media screen and (max-width: 1200px) {
+    body{
+        background-size:90%;
+    }
+   
 }
-
+@media screen and (max-width: 992px) {
+    body{
+        background-image: none;
+    }
+    .Logo{
+         display:block;
+    }
+}
 
